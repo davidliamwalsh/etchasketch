@@ -1,0 +1,54 @@
+:root {
+  --number: 16;
+}
+
+body {
+  text-align: center;
+  background: #80838A;
+  color: #FFF;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.c-container {
+  overflow: hidden;
+}
+
+.c-select_grid {
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+
+button {
+  margin: auto;
+  color: #FFF;
+  background: #4267B2;
+  border: none;
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: .5em;
+}
+
+button:hover {
+  background: #0E1523;
+}
+
+.c-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--number), 1fr);
+  width: 512px; 
+  height: 512px;
+  background: #FFF;
+  border: 1px solid black;  
+}
+
+.c-grid__item {
+  border: 1px solid black;
+}
+
+.c-item__border {
+  border: 1px solid black;
+}
